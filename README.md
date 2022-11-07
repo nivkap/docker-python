@@ -16,6 +16,8 @@ FROM - creates a layer from the node:alpine Docker image.
 
 COPY - adds files from your Docker client’s current directory.
 
+WORKDIR - sets the working directory for the dockerfile.
+
 CMD - specifies what command to run within the container.
 
  # PYTHONapp.py
